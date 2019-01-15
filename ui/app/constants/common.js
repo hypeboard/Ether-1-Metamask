@@ -1,4 +1,4 @@
-export const ETHO = 'ETHO'
+export const ETHO = 'ETH'
 export const GWEI = 'GWEI'
 export const WEI = 'WEI'
 
