@@ -135,7 +135,7 @@ class CurrencyController {
       nativeCurrency = this.getNativeCurrency()
       // select api
       let apiUrl
-      if (nativeCurrency === 'ETHO') {
+      if (nativeCurrency === 'ETH') {
         // ETH
         apiUrl = `https://min-api.cryptocompare.com/data/price?fsym=${nativeCurrency.toUpperCase()}&tsyms=${currentCurrency.toUpperCase()}`
       } else {
